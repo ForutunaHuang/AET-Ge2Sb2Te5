@@ -1,4 +1,4 @@
-# AET-Ge2Sb2Te5
+# AET-Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub>
 
 **Fast β-relaxation governing the temporal evolution of electrical resistance in phase-change materials**
 
@@ -53,27 +53,27 @@ This folder contains experimental images after denoising and alignment as well a
 
 Folder: [2_RESIRE_package](./2_RESIRE_package)
 
-Run the code `Main_RESIRE_as_dep_GST.m`,`Main_RESIRE_anneal_30min_GST.m`,`Main_RESIRE_anneal_120min_GST.m` to perform the 3D reconstruction of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
+Run the code `Main_RESIRE_as_dep_GST.m`,`Main_RESIRE_anneal_30min_GST.m`,`Main_RESIRE_anneal_120min_GST.m` to achieve the 3D reconstruction of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
 
 ### 3. Reconstructed 3D Volume
 
 Folder: [3_Final_reconstruction_volume](./3_Final_reconstruction_volume)
 
-This folder contains the 3D reconstructed volumes of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
+This folder includes the 3D reconstructed volumes of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
 
 ### 4. Atom Tracing
 
 Folder: [4_Atom_tracing](./4_Atom_tracing)
 
-Run the codes `Main_atom_tracing_as_dep_GST.m`, `Main_atom_tracing_anneal_30min_GST.m` and `Main_atom_tracing_anneal_120min_GST.m` to trace the potential atomic positions from the reconstructed 3D volumes.
+Run the codes `Main_atom_tracing_as_dep_GST.m`, `Main_atom_tracing_anneal_30min_GST.m` and `Main_atom_tracing_anneal_120min_GST.m` to trace the candidate atomic positions from the reconstructed 3D volumes.
 
-Run the codes `Main_remove_non_atom_peak_as_dep_GST.m`, `Main_remove_non_atom_peak_aanneal_30min_GST.m` and `Main_remove_non_atom_peak_aanneal_120min_GST.m` to separate non-atoms from the potential atoms using the K-mean clustering method. By carefully comparing the individual atomic positions in the potential atomic models with the 3D reconstructions, a small fraction of unidentified or misidentified atoms were manually corrected, producing the 3D atomic models of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
+Run the codes `Main_remove_non_atom_peak_as_dep_GST.m`, `Main_remove_non_atom_peak_aanneal_30min_GST.m` and `Main_remove_non_atom_peak_aanneal_120min_GST.m` to distinguish non-atoms from the candidate atoms via the K-mean clustering method. Through carefully comparison between the individual atomic positions in the candidate atomic models and the 3D reconstructions, a small fraction of unidentified or misidentified atoms were manually corrected, producing the 3D atomic models of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
 
 ### 5. Experimental Atomic Model
 
 Folder: [5_Final_coordinates](./5_Final_coordinates)
 
-This folder contains the final 3D atomic models of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
+This folder includes the final 3D atomic models of the three Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub> nanoparticles.
 
 ### 6. Post Data Analysis
 
