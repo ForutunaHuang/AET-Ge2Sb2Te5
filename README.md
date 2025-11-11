@@ -1,4 +1,4 @@
-# AET-Ge<sub>2</sub>Sb<sub>2</sub>Te<sub>5</sub>
+# Supplementary Data Codes
 
 **Fast β-relaxation governing the temporal evolution of electrical resistance in phase-change materials**
 
